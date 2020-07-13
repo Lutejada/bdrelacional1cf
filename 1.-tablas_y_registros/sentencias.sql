@@ -1,7 +1,10 @@
 DROP DATABASE IF EXISTS libreria_cf;
 CREATE DATABASE IF NOT EXISTS libreria_cf;
 
+/* con el comando use selecciono la base de datos a utilizar*/
 USE libreria_cf;
+
+/* Como crear una tabla  de nombre autores con sus columnas definiendo el tipo de variable*/
 
 CREATE TABLE autores(
   autor_id INT,
