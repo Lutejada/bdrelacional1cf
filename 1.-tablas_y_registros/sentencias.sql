@@ -40,7 +40,7 @@ crea la tabla usuarios a partir de autores, las dos tablas quedarian identicas  
 
 CREATE TABLE usuarios LIKE autores;
 
-/* para ejecutar un archivo sql se debe realizar de la siguiente manera*/
+/* para ejecutar un archivo sql se debe realizar de la siguiente manera, no se debe estar logueado*/
 
 mysql -u root -p < ruta del archivo
 
